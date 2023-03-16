@@ -1,0 +1,112 @@
+package registroDatos;
+
+/**
+ *
+ * @author 50242
+ */
+public class Usuarios extends validacionPassword{
+       private String correo;
+       private String nombre;
+       private String apellido;
+       private String dpi;
+       private String DOB;
+       private String genero;
+       private String naciolidad;
+       private String alias;
+       private int numero;
+       private String password;
+       
+      
+
+    public Usuarios(String correo, String nombre, String apellido, String dpi, String DOB, String genero, String naciolidad, String alias, int numero, String password) {
+        this.correo = correo;
+        this.nombre = nombre;
+        this.apellido = apellido;
+        this.dpi = dpi;
+        this.DOB = DOB;
+        this.genero = genero;
+        this.naciolidad = naciolidad;
+        this.alias = alias;
+        this.numero = numero;
+    }
+
+    public String getCorreo() {
+        return correo;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public String getApellido() {
+        return apellido;
+    }
+
+    public String getDpi() {
+        return dpi;
+    }
+
+    public String getDOB() {
+        return DOB;
+    }
+
+    public String getGenero() {
+        return genero;
+    }
+
+    public String getNaciolidad() {
+        return naciolidad;
+    }
+
+    public String getAlias() {
+        return alias;
+    }
+
+    public int getNumero() {
+        return numero;
+    }
+
+    public void setCorreo(String correo) {
+        this.correo = correo;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public void setApellido(String apellido) {
+        this.apellido = apellido;
+    }
+
+    public void setDpi(String dpi) {
+        this.dpi = dpi;
+    }
+
+    public void setDOB(String DOB) {
+        this.DOB = DOB;
+    }
+
+    public void setGenero(String genero) {
+        this.genero = genero;
+    }
+
+    public void setNaciolidad(String naciolidad) {
+        this.naciolidad = naciolidad;
+    }
+
+    public void setAlias(String alias) {
+        this.alias = alias;
+    }
+
+    public void setNumero(int numero) {
+        this.numero = numero;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+}
